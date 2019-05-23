@@ -11,7 +11,7 @@ class Login extends React.component {
             password: ''
         }
         }
-    }
+    
 
     handleChange = e => {
         this.setState({

@@ -6,7 +6,7 @@ const initialState = {
     friends: []
 };
 
-const reducer = (state =intialState, action) => {
+const reducer = (state = initialState, action) => {
     switch(action.type){
         case FETCH_DATA_START:
             return {
