@@ -51,7 +51,17 @@ class Login extends React.component {
                     <button>
                         log in
                     </button>
+                </form>
             </div>
         )
     }
 }
+
+const mapActionsToProps = {
+    login
+};
+
+export default connect (
+    null,
+    mapActionsToProps
+)(Login)
